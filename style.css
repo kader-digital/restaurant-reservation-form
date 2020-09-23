@@ -84,7 +84,10 @@ input, select {
 
 	bottom: 0;
 	position: absolute;
-	margin-bottom: 15px;
+
+	background-color: blue;
+	width: 700px;
+	height: 40px;
 
 }
 
@@ -93,5 +96,6 @@ ul li {
 	display: inline-block;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-top: 10px;
 
 }
