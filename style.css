@@ -1,0 +1,56 @@
+* {
+
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: Arial;
+
+}
+
+.wrapper {
+
+	margin: auto;
+	width: 700px;
+	height: 600px;
+	overflow: auto;
+	background-color: #CCCCCC;
+
+}
+
+.header-wrapper {
+
+	padding: 5px 5px 5px 5px;
+
+}
+
+legend {
+
+	border-style: double;
+	border-radius: 4px;
+
+}
+
+.form-wrapper {
+
+	margin: 10px auto 10px auto;
+	width: 40%;
+
+}
+
+
+label {
+
+	float: left;
+
+}
+
+input, select {
+
+	float: right;
+
+}
+
+#submit {
+
+	float: left;
+
+}
