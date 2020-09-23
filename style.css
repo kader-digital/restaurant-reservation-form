@@ -12,7 +12,7 @@
 
 	margin: auto;
 	width: 700px;
-	height: 620px;
+	height: 625px;
 	background-color: black;
 
 }
@@ -55,8 +55,8 @@ legend {
 
 	border-style: solid;
 	border-width: 1px;
-	margin: 2px 2px 2px 2px;
-	padding: 2px 2px 2px 2px;
+	margin: 10px 2px 5px 2px;
+	padding: 0px 2px 2px 2px;
 	border-radius: 3px;
 	background-color: red; 
 	font-size: 70%;
@@ -66,14 +66,14 @@ legend {
 fieldset {
 
 	border-style: none;
-	margin-bottom: 5px;
+	background-color: #e34627;
+	padding-bottom: 13px;
 	
 }
 
 
 label {
 
-	color: white;
 	margin-left: 55px;
 	margin-right: 30px;
 	font-size: 90%;
@@ -100,9 +100,8 @@ input {
 
 
 	background-color: #3b2710; 
-	opacity: 90%;
 	width: 700px;
-	height: 25px;
+	height: 20px;
 
 }
 
@@ -120,7 +119,7 @@ ul li {
 
 	display: inline-block;
 	margin-left: 10px;
-	margin-right: 10px;
+	margin-right: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background-color: orange;
@@ -140,7 +139,7 @@ p {
 
 	font-size: 40%;
 	opacity: 50%;
-	margin: 5px 3px 3px 12px;
 	padding-top: 5px;
-
+	margin-left: 10px;
+	color: orange;
 }
