@@ -41,15 +41,17 @@ h3 {
 
 .header-wrapper {
 
-	padding: 5px 5px 5px 5px;
 	background-color: blue;
 
 }
 
 legend {
 
-	border-style: double;
+	border-style: solid;
+	border-width: 1px;
+	margin: 2px 2px 2px 2px;
 	border-radius: 4px;
+	background-color: #ACCCCC;
 
 }
 
@@ -86,9 +88,15 @@ input, select, textarea {
 	bottom: 0;
 	position: absolute;
 
-	background-color: blue;
+	background-color: maroon;
 	width: 700px;
 	height: 40px;
+
+}
+
+#right {
+	
+	float: right;
 
 }
 
@@ -98,5 +106,12 @@ ul li {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
+
+}
+
+.main-menu {
+
+	background-color: yellow;
+	width: 700px;
 
 }
