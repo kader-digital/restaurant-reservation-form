@@ -12,14 +12,15 @@
 
 	margin: auto;
 	width: 700px;
-	height: 600px;
-	background-color: #CCCCCC;
+	height: 620px;
+	background-color: black;
 
 }
 
 img {
 
-width: 700px;
+	width: 700px;
+	object-fit: contain;
 
 }
 
@@ -46,7 +47,7 @@ h3 {
 
 .header-wrapper {
 
-	background-color: brown;
+	background-color: #e34627;
 
 }
 
@@ -55,47 +56,53 @@ legend {
 	border-style: solid;
 	border-width: 1px;
 	margin: 2px 2px 2px 2px;
-	border-radius: 4px;
-	background-color: #ACCCCC;
+	padding: 2px 2px 2px 2px;
+	border-radius: 3px;
+	background-color: red; 
+	font-size: 70%;
 
 }
 
-.form-wrapper {
+fieldset {
 
-	margin: 10px auto 10px auto;
-	width: 40%;
-
+	border-style: none;
+	margin-bottom: 5px;
+	
 }
 
 
 label {
 
+	color: white;
+	margin-left: 55px;
+	margin-right: 30px;
+	font-size: 90%;
 	float: left;
 
 }
 
-input, select, textarea {
+input {
 
-	float: right;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
 
 }
 
 #submit {
 
 	float: right;
-	width: 100%;
+	padding-left: 20px;
 
 }
 
 .footer-wrapper {
 
 
-	bottom: 0;
-	position: absolute;
-
-	background-color: maroon;
+	background-color: #3b2710; 
+	opacity: 90%;
 	width: 700px;
-	height: 40px;
+	height: 25px;
 
 }
 
@@ -117,14 +124,14 @@ ul li {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background-color: orange;
-	padding: 10px 10px 10px 10px;
+	padding: 4px 4px 4px 4px;
 	border-radius: 3px;
 
 }
 
 .main-menu {
 
-	background-color: yellow;
+	background-color: maroon;
 	width: 700px;
 
 }
@@ -133,7 +140,7 @@ p {
 
 	font-size: 40%;
 	opacity: 50%;
-	color: orange;
-	margin: 13px 3px 3px 10px;
+	margin: 5px 3px 3px 12px;
+	padding-top: 5px;
 
 }

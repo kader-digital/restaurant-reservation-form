@@ -16,7 +16,7 @@
 		<title>Order Up!</title>
 
 		<link type="text/css" rel="stylesheet" href="style.css">
-		<link rel="icon" href="steak_icon.png" type="image/gif" sizes="16x16">
+		<link rel="icon" href="images/steak_icon.png" type="image/gif" sizes="16x16">
 		<link rel="canonical" href="http://1701.city">
 	</head>
 	<body>
@@ -39,9 +39,19 @@
 			</header>
 
 			<main>
-				<img src="pr.jpg">
+				<img id="picture" alt="Full Cut of Prime Rib" src="images/full-cut.gif">
 			</main>
-
+			<hr>
+			<form>
+				<fieldset>
+					<legend>Email List</legend>
+					<label for="name">Name: </label>
+					<input type="text" name="name" placeholder="Garth Weldon"> 
+					<label for="email">Email:</label>
+					<input type="email" name="email" placeholder="contact@1701.city">
+					<input type="submit" value="submit">
+				</fieldset>
+			</form>
 			<footer>
 				<div class="footer-wrapper">
 					<p>1701 Seafood And Steaks </p>
