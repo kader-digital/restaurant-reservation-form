@@ -41,7 +41,7 @@ h3 {
 
 .header-wrapper {
 
-	background-color: blue;
+	background-color: brown;
 
 }
 
@@ -97,6 +97,10 @@ input, select, textarea {
 #right {
 	
 	float: right;
+	margin: 15px 10px 10px 10px;
+	background-color: orange;
+	border-radius: 3px;
+	padding: 5px 5px 5px 5px;
 
 }
 
@@ -106,6 +110,10 @@ ul li {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: orange;
+	padding: 10px 10px 10px 10px;
+	border-radius: 3px;
 
 }
 
@@ -113,5 +121,14 @@ ul li {
 
 	background-color: yellow;
 	width: 700px;
+
+}
+
+p {
+
+	font-size: 40%;
+	opacity: 50%;
+	color: orange;
+	margin: 13px 3px 3px 10px;
 
 }
