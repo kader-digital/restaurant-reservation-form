@@ -3,6 +3,8 @@
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	font-family: Arial;
+	text-decoration: none;
+	color: black;
 
 }
 
@@ -16,9 +18,31 @@
 
 }
 
+a:hover {
+
+	color: red;
+
+}
+
+h1 {
+
+	display: inline-block;
+	margin: 10px 5px 10px 5px;
+
+}
+
+h3 {
+
+	float: right;
+	display: inline-block;
+	margin: 18px 15px 10px 10px;
+
+}
+
 .header-wrapper {
 
 	padding: 5px 5px 5px 5px;
+	background-color: blue;
 
 }
 

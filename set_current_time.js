@@ -5,8 +5,6 @@ var min = date.getMinutes();
 
 var time = hour + ":" + min;
 
-document.getElementById("current-time").innerHTML = time;
-
 var current_date = date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
 document.getElementById("date").value = current_date;
 
