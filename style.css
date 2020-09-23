@@ -67,7 +67,7 @@ label {
 
 }
 
-input, select {
+input, select, textarea {
 
 	float: right;
 
@@ -75,7 +75,8 @@ input, select {
 
 #submit {
 
-	float: left;
+	float: right;
+	width: 100%;
 
 }
 

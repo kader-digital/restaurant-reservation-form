@@ -16,9 +16,11 @@ for (var i = 0; i < options.length; i++) {
 	var res_hour = hours_and_mins[0];
 	var res_min = hours_and_mins[1];
 
-	if (parseInt(res_hour) <= parseInt(hour) && parseInt(res_min) <= parseInt(min))
+	if ((parseInt(res_hour) <= parseInt(hour)) && (parseInt(res_min) <= parseInt(min)))
 		options[i].disabled = true;
 
+	if (parseInt(res_hour) < parseInt(hour) && parseInt(res_min) >= parseInt(min))
+		options[i].disabled = true;
 
 } 
 
