@@ -13,8 +13,13 @@
 	margin: auto;
 	width: 700px;
 	height: 600px;
-	overflow: auto;
 	background-color: #CCCCCC;
+
+}
+
+img {
+
+width: 700px;
 
 }
 
